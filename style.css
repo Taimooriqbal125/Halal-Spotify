@@ -21,10 +21,11 @@
     float: left;
     background-color: black;
     color: aliceblue;
-    width: 328px;
-    position: absolute;
+    width: 341px;
+   height: 700px;
+    position: fixed;
     left: 0px;
-    top: 10px;
+    top: 8px;
 }
 
 .login {
@@ -62,12 +63,13 @@ top: 60px;
 width: 1008px;
 z-index: -3;
 
+
 }
 tr > td >p {
     color: aliceblue;
     font-weight: bolder;
     font-size: x-large;
-    
+    margin-left: 20px;
 }
 .show{
     color: rgba(240, 255, 255, 0.658);
@@ -77,10 +79,44 @@ td span{
     color: aliceblue;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 18px;
 }
 span > span{
     font-size: small;
 }
  .ta {
     padding-left: 3px;
+}
+td > div {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.black{
+    width: 307px;
+margin-left: 10px;
+margin-top: 15px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+}
+.black2{
+    width: 307px;
+    height: 370px;
+margin-left: 10px;
+margin-top: 15px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+}
+.small
+{ display: flex;
+    font-size: smaller;
+    color: rgba(255, 255, 255, 0.425);
+    align-items: center;
+}
+div >  button {
+    margin-left: 80px;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+   color: white;
+    outline-color: antiquewhite;
+    width: 89px;
+    height: 30px;
 }
