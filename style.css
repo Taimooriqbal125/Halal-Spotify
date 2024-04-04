@@ -1,0 +1,82 @@
+@import url(./effect.css);
+.navbar {
+    display: grid;
+    grid-template-columns: 730px 100px 80px;
+    list-style: none;
+    position: fixed;
+    margin: 0%;
+    width: 968px;
+    height: 55px;
+    z-index: 4;
+    background-color: black;
+
+}
+
+.body {
+    width: 1000px;
+    float: right;
+    overflow: hidden;
+}
+.left{
+    float: left;
+    background-color: black;
+    width: 328px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.login {
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(1, 8, 14);
+    background-color: rgb(245, 242, 242);
+    border-radius: 20px;
+    border: 30px black;
+    width: 120px;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.a {
+    font-size: larger;
+    color: aliceblue;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    border: 10px black;
+    width: 70px;
+    margin-top: 12px;
+}
+
+.sign{
+    font-size: larger;
+    font-weight: 600;
+    color: #fffff796;
+    margin-top: 12px;
+}
+.nd{
+background-color: rgb(30, 30, 30);
+position: absolute;
+top: 60px;
+width: 1008px;
+z-index: -3;
+
+}
+tr > td >p {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.show{
+    color: rgba(240, 255, 255, 0.658);
+    font-size: smaller;
+}
+td span{
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span > span{
+    font-size: small;
+}

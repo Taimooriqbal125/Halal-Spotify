@@ -1,0 +1,9 @@
+.sign :hover{
+    color: white;
+}
+.login :hover{
+    background-color: aqua;
+}
+tr > td >p :hover{
+    text-underline-position: above;
+}
