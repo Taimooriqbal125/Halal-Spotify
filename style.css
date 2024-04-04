@@ -20,6 +20,7 @@
 .left{
     float: left;
     background-color: black;
+    color: aliceblue;
     width: 328px;
     position: absolute;
     left: 0px;
@@ -79,4 +80,7 @@ td span{
 }
 span > span{
     font-size: small;
+}
+ .ta {
+    padding-left: 3px;
 }
